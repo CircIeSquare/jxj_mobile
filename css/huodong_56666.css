@@ -1,0 +1,88 @@
+
+.title{text-align:center;}
+.title h2{width:4.92rem;height:.6533rem;line-height:.6533rem;background:#ffd126;color:#fff;margin:.5866rem auto 0;font-size:.4933rem;}
+.title h3{height:.7333rem;line-height:.7333rem;color:#767676;font-size:.32rem;margin-bottom:.1333rem;}
+
+
+/*banner*/
+.banner{width:100%;height:4.96rem;margin-top:1.3733rem;}
+
+/*预约报价*/
+.subscribe{width:95.0666%;margin:0 auto;}
+.subscribe h2{width:100%;height:.8133rem;line-height:.8133rem;margin-top:.5733rem;
+background:#323232;color:#f6ca32;font-size:.4266rem;text-align:center;}
+.subscribe .form{width:100%;height:3.48rem;position:relative;}
+.subscribe .form input,
+.subscribe .form .select_type{width:2.8rem;height:.4533rem;line-height:.4533rem;color:#323232;
+float:left;position:absolute;border-radius:.2133rem;border:none;box-sizing:border-box;padding:0 .1333rem;font-size:.28rem;
+z-index:1;}
+.subscribe .form .user_name{top:.76rem;left:1.6933rem;}
+.subscribe .form .user_area{top:.76rem;right:.7333rem;}
+.subscribe .form .select_type{top:1.5066rem;left:1.6933rem;z-index:2;}
+.subscribe .form .select_type .select_box{width:2.8rem;height:.4533rem;line-height:.4533rem;}
+.subscribe .form .select_type .select_ul{width:2.8rem;height:1.3599rem;line-height:.4533rem;overflow:auto;
+position:absolute;/*left:-.1333rem;*/left:0;top:.4533rem;z-index:2;background:#fff;border-radius:.2133rem;text-indent:.1333rem;display:none;}
+.subscribe .form .user_phone{top:1.5066rem;right:.7333rem;}
+.subscribe .form .price_btn{width:3.28rem;height:.48rem;line-height:.48rem;border:.02666rem solid #323232;border-radius:.2133rem;text-align:center;font-size:.28rem;
+color:#323232;position:absolute;bottom:.5466rem;left:50%;margin-left:-1.64rem;z-index:1;}
+
+/*4项全免*/
+.free{width:100%;}
+.free .content{width:100%;height:5.3066rem;}
+.free .content .swiper-wrapper{width:100%;height:4.8rem;}
+.free .content .swiper-pagination-bullets{bottom:.0533rem;}
+
+/*12大工程优化体系*/
+.system{width:100%;}
+.system .content{width:100%;height:5.88rem;}
+.system .content .swiper-wrapper{width:100%;height:4.92rem;}
+.system .content .swiper-slide{width:3.333rem;height:4.92rem;}
+.system .swiper-scrollbar{opacity:1 !important;
+width:5.0133rem;height:.12rem;bottom:.2533rem;left:50%;margin-left:-2.5066rem;background:#323232;z-index:2;}
+.system .swiper-scrollbar .swiper-scrollbar-drag{background:#ffd126;}
+
+/*团队*/
+.team{width:95.0666%;margin:0 auto;}
+.team .content{margin-top:.28rem;width:100%;height:4.3333rem;}
+.team .content ul{width:100%;height:3.1733rem;margin-top:1.16rem;display:flex;justify-content:space-between;}
+.team .content ul li{width:2.2333rem;height:4.3333rem;}
+
+/*.team .content ul li{width:2.2333rem;height:100%;background:#ffd126;position:relative;color:#fff;text-align:center;}
+.team .content ul li .img{width:2.2333rem;height:2.2333rem;border-radius:50%;position:absolute;left:0;top:-1.1666rem;}
+.team .content ul li h4{font-size:.2666rem;padding-top:1.4533rem;}
+.team .content ul li p{width:100%;font-size:.24rem;line-height:.28rem;position:absolute;bottom:.2533rem;left:0;}*/
+
+/*@media screen and (max-width:640px){
+    !*.team .content ul li h4{padding-top:1.2533rem;}*!
+    .team .content{height:5.3333rem;}
+    .team .content ul{height:4.1733rem;}
+}
+@media screen and (max-width:480px){
+    !*.team .content ul li h4{padding-top:1.2533rem;}*!
+    .team .content{height:5.3333rem;}
+    .team .content ul{height:4.1733rem;}
+}
+@media screen and (max-width:450px){
+    !*.team .content ul li h4{padding-top:1.0533rem;}*!
+    .team .content{height:5.3333rem;}
+    .team .content ul{height:4.1733rem;}
+}
+@media screen and (max-width:360px){
+    !*.team .content ul li h4{padding-top:.9533rem;}*!
+    .team .content{height:5.3333rem;}
+    .team .content ul{height:4.1733rem;}
+}
+@media screen and (max-width:320px){
+    !*.team .content ul li h4{padding-top:.8533rem;}*!
+    .team .content{height:5.3333rem;}
+    .team .content ul{height:4.1733rem;}
+}*/
+
+/*配置*/
+.config{width:100%;overflow:hidden;margin-top:.88rem;height:5.9866rem;padding-bottom:.65rem;position:relative;}
+.config .title{position:relative;z-index:2;}
+.config .title h2{margin-top:0;}
+.config .bg{width:100%;height:3.9066rem;margin-top:-1.1066rem;position:absolute;left:0;}
+.config .content{width:94.9333%;margin:0 auto;height:4.56rem;overflow:hidden;}
+.config .content .swiper-wrapper{width:100%;height:100%;}
+.config .content .swiper-wrapper .swiper-slide{width:100%;height:100%;}
