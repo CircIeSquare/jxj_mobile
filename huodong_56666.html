@@ -19,19 +19,62 @@
 <body>
     <!--header-->
     <div class="header">
-        <a class="home" href="#">
+        <a class="home" href="index.html">
             <img src="images/header_icon1.png">
         </a>
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
             <img src='images/logo.png'/>
         </a>
-        <div class="nav_icon">
+        <div class="nav_icon" id="navigation_open">
             <img src="images/header_icon2.png">
         </div>
     </div>
     <!--banner-->
     <div class="banner">
         <img src="images/banner.jpg"/>
+    </div>
+    <!--导航-->
+    <div class="navigation" id="navigation">
+        <div class="nav_content">
+            <div class="list">
+                <a class="item" href="index.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon1.png"/>
+                    </div>
+                    <h3>首页</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon2.png"/>
+                    </div>
+                    <h3>装修案例</h3>
+                </a>
+                <a class="item" href="baojia.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon3.png"/>
+                    </div>
+                    <h3>装修报价</h3>
+                </a>
+                <a class="item" href="huodong_56666.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon4.png"/>
+                    </div>
+                    <h3>566+套餐</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon5.png"/>
+                    </div>
+                    <h3>装修资讯</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon6.png"/>
+                    </div>
+                    <h3>关于我们</h3>
+                </a>
+            </div>
+        </div>
     </div>
     <!--预约报价-->
     <div class="subscribe">
@@ -40,8 +83,8 @@
             <input type="text" maxlength="8" placeholder="您的称呼" id="user_name" class="user_name"/>
             <input type="text" maxlength="8" placeholder="您的小区" id="user_area" class="user_area"/>
             <div class="select_type">
-                <div class="select_box">一室一厅一卫</div>
-                <ul class="select_ul">
+                <div class="select_box">1室1厅1卫</div>
+                <!--<ul class="select_ul">
                     <li>一室一厅一卫</li>
 
                     <li>二室一厅一卫</li>
@@ -81,7 +124,37 @@
                     <li>五室五厅三卫</li>
                     <li>五室五厅四卫</li>
                     <li>五室五厅五卫</li>
-                </ul>
+                </ul>-->
+                <!--户型弹窗-->
+                <div class="alert_type">
+                    <div class="houseType_wrapper">
+                        <h3>选择您家的户型</h3>
+                        <div class="houseType_content">
+                            <ul>
+                                <li class="active">1室</li>
+                                <li>2室</li>
+                                <li>3室</li>
+                                <li>4室</li>
+                                <li>5室</li>
+                            </ul>
+                            <ul>
+                                <li class="active">1厅</li>
+                                <li>2厅</li>
+                                <li>3厅</li>
+                                <li>4厅</li>
+                                <li>5厅</li>
+                            </ul>
+                            <ul>
+                                <li class="active">1卫</li>
+                                <li>2卫</li>
+                                <li>3卫</li>
+                                <li>4卫</li>
+                                <li>5卫</li>
+                            </ul>
+                        </div>
+                        <div type="button" class="type_btn">确定</div>
+                    </div>
+                </div>
             </div>
             <input type="text" maxlength="11" placeholder="您的联系方式" id="user_phone" class="user_phone"/>
             <div class="price_btn" id="price_btn">立即报价>></div>

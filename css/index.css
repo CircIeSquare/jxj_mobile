@@ -1,6 +1,6 @@
 
 /*banner*/
-.banner{width:100%;height:4.96rem;margin-top:1.3733rem;}
+.banner{width:100%;height:4.96rem;margin-top:1.3833rem;}
 /*.swiper-pagination-bullet{background:#323232;opacity:1;width:.16rem;height:.16rem;}
 .swiper-pagination-bullet-active{background:#f6ca32;}*/
 
@@ -94,6 +94,8 @@ border:.2133rem solid transparent;border-top-color:#b4b4b4;position:absolute;top
 }
 .price .price_btn{width:4.6266rem;height:.6933rem;line-height:.6933rem;text-align:center;font-size:.4266rem;color:#f6ca32;background:#323232;border-radius:3px;
 margin:0 auto;}
+
+/*户型弹窗*/
 
 /*team*/
 .team{width:95.2%;/*height:6.3066rem;*/margin:.52rem auto .5733rem;display:flex;justify-content:space-between;}

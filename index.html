@@ -16,27 +16,70 @@
 <body>
     <!--header-->
     <div class="header">
-        <a class="home" href="#">
+        <a class="home" href="index.html">
             <img src="images/header_icon1.png">
         </a>
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
             <img src='images/logo.png'/>
         </a>
-        <div class="nav_icon">
+        <div class="nav_icon" id="navigation_open">
             <img src="images/header_icon2.png">
+        </div>
+    </div>
+    <!--导航-->
+    <div class="navigation" id="navigation">
+        <div class="nav_content">
+            <div class="list">
+                <a class="item" href="index.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon1.png"/>
+                    </div>
+                    <h3>首页</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon2.png"/>
+                    </div>
+                    <h3>装修案例</h3>
+                </a>
+                <a class="item" href="baojia.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon3.png"/>
+                    </div>
+                    <h3>装修报价</h3>
+                </a>
+                <a class="item" href="huodong_56666.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon4.png"/>
+                    </div>
+                    <h3>566+套餐</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon5.png"/>
+                    </div>
+                    <h3>装修资讯</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon6.png"/>
+                    </div>
+                    <h3>关于我们</h3>
+                </a>
+            </div>
         </div>
     </div>
     <!--banner-->
     <div class="swiper-container swiper-container0 banner" id="banner">
         <!-- Swiper -->
         <div class="swiper-wrapper">
-            <a class="swiper-slide swiper-slide1" href="huodong_56666.html" target="_blank">
+            <a class="swiper-slide swiper-slide1" href="huodong_56666.html">
                 <img src="images/banner.jpg"/>
             </a>
-            <a class="swiper-slide swiper-slide2" href="huodong_56666.html" target="_blank">
+            <a class="swiper-slide swiper-slide2" href="huodong_56666.html">
                 <img src="images/banner.jpg"/>
             </a>
-            <a class="swiper-slide swiper-slide3" href="huodong_56666.html" target="_blank">
+            <a class="swiper-slide swiper-slide3" href="huodong_56666.html">
                 <img src="images/banner.jpg"/>
             </a>
         </div>
@@ -97,12 +140,12 @@
     </div>
     <!--活动-->
     <div class="activity">
-        <div class="bg"><img src=images/huodong_pic.jpg/></div>
+        <div class="bg"><img src="images/huodong_pic.jpg"/></div>
             <div class="swiper-container swiper-container1  content">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" onclick="window.location.href='huodong_56666.html'">
-                        <!--<a href="#" target="_blank" class="link">-->
-                            <div class="img">
+                    <div class="swiper-slide">
+                        <a href="huodong_56666.html" class="link">
+                            <!--<div class="img">
                                 <img src="images/huodong_img.jpg"/>
                             </div>
                             <div class="info">
@@ -110,13 +153,13 @@
                                 <h5>包主材·包设计·包施工·包售后</h5>
                                 <h4>56666<span>元</span></h4>
                                 <a class="more">＜＜了解详情</a>
-                            </div>
-                            <!--<img src="images/huodong_img1.jpg"/>-->
-                        <!--</a>-->
+                            </div>-->
+                            <img src="images/huodong_img1.jpg"/>
+                        </a>
                     </div>
-                    <div class="swiper-slide" onclick="window.location.href='huodong_56666.html'">
-                        <!--<a href="#" target="_blank" class="link">-->
-                            <div class="img">
+                    <div class="swiper-slide">
+                        <a href="huodong_56666.html" class="link">
+                            <!--<div class="img">
                                 <img src="images/huodong_img.jpg"/>
                             </div>
                             <div class="info">
@@ -124,13 +167,13 @@
                                 <h5>包主材·包设计·包施工·包售后</h5>
                                 <h4>56666<span>元</span></h4>
                                 <a class="more">＜＜了解详情</a>
-                            </div>
-                            <!--<img src="images/huodong_img1.jpg"/>-->
-                        <!--</a>-->
+                            </div>-->
+                            <img src="images/huodong_img1.jpg"/>
+                        </a>
                     </div>
-                    <div class="swiper-slide" onclick="window.location.href='huodong_56666.html'">
-                        <!--<a href="#" target="_blank" class="link">-->
-                            <div class="img">
+                    <div class="swiper-slide">
+                        <a href="huodong_56666.html" class="link">
+                            <!--<div class="img">
                                 <img src="images/huodong_img.jpg"/>
                             </div>
                             <div class="info">
@@ -138,9 +181,9 @@
                                 <h5>包主材·包设计·包施工·包售后</h5>
                                 <h4>56666<span>元</span></h4>
                                 <a class="more">＜＜了解详情</a>
-                            </div>
-                            <!--<img src="images/huodong_img1.jpg"/>-->
-                        <!--</a>-->
+                            </div>-->
+                            <img src="images/huodong_img1.jpg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -237,7 +280,7 @@
         <input type="text" maxlength="11" placeholder="您的联系方式" id="user_phone"/>
         <div class="select_type">
             <div class="select_box">1室1厅1厨1卫1阳台</div>
-            <ul class="select_ul">
+            <!--<ul class="select_ul">
                 <li>1室1厅1厨1卫1阳台</li>
                 <li>2室1厅1厨1卫1阳台</li>
                 <li>2室1厅1厨1卫1阳台</li>
@@ -281,7 +324,51 @@
                 <li>5室5厅1厨4卫1阳台</li>
                 <li>5室5厅1厨5卫1阳台</li>
 
-            </ul>
+            </ul>-->
+            <!--户型弹窗-->
+            <div class="alert_type">
+                <div class="houseType_wrapper">
+                    <h3>选择您家的户型</h3>
+                    <div class="houseType_content">
+                        <ul>
+                            <li class="active">1室</li>
+                            <li>2室</li>
+                            <li>3室</li>
+                            <li>4室</li>
+                            <li>5室</li>
+                        </ul>
+                        <ul>
+                            <li class="active">1厅</li>
+                            <li>2厅</li>
+                            <li>3厅</li>
+                            <li>4厅</li>
+                            <li>5厅</li>
+                        </ul>
+                        <ul>
+                            <li class="active">1厨</li>
+                            <li>2厨</li>
+                            <li>3厨</li>
+                            <li>4厨</li>
+                            <li>5厨</li>
+                        </ul>
+                        <ul>
+                            <li class="active">1卫</li>
+                            <li>2卫</li>
+                            <li>3卫</li>
+                            <li>4卫</li>
+                            <li>5卫</li>
+                        </ul>
+                        <ul>
+                            <li class="active">1阳台</li>
+                            <li>2阳台</li>
+                            <li>3阳台</li>
+                            <li>4阳台</li>
+                            <li>5阳台</li>
+                        </ul>
+                    </div>
+                    <div type="button" class="type_btn">确定</div>
+                </div>
+            </div>
         </div>
         <div class="price_btn" id="price_btn">立即报价</div>
     </div>
@@ -532,17 +619,16 @@ $(function(){
         autoplayDisableOnInteraction:false,
         slidesPerView:1,
         loop:false,
-        onSlideChangeStart: function(swiper){
+        onSlideChangeStart:function(swiper){
             $(".news .tab_btn .active").removeClass('active');
             $(".news .tab_btn li").eq(swiper.activeIndex).addClass('active');
         }
-
     });
     //装修资讯
     var news_tab_btn=$(".news .tab_btn li");
-    news_tab_btn.on("click tap",function(){
+    news_tab_btn.on("touchstart click",function(){
         $(".news .tab_btn .active").removeClass('active')
-        $(this).addClass('active')
+        $(this).addClass('active');
         swiper3.slideTo($(this).index(),500,false);
     });
 

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线报价|极享家装饰</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1，user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/baojia.css"/>
+    <script src="js/flexible.min.js"></script>
+    <script src="js/jquery.min.1.8.3.js"></script>
+    <script src="js/layer.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/baojia.js"></script>
+    <style>
+        .baojia_content .content_title h3{background:url("images/baojia_images/index.png") no-repeat center;background-size:cover;}
+        .baojia_content1 .content_main li span,
+        .baojia_content2 .house_type li .img span,
+        .baojia_content2_2 .content_main li span,
+        .baojia_content3 .content_main .house_style li .img span,
+        .baojia_content5 .content_main .select_style li h6 span
+        {background:url("images/baojia_images/index6.png") no-repeat center;background-size:cover;}
+        .baojia_content1 .content_main li.active span,
+        .baojia_content2 .house_type li.active span,
+        .baojia_content2_2 .content_main li.active span,
+        .baojia_content3 .content_main .house_style li.active span,
+        .baojia_content5 .content_main .select_style li.active span
+        {background:url("images/baojia_images/index7.png") no-repeat center;background-size:cover;}
+
+        .baojia_content5 .content_main .panel{background:url("images/baojia_images/index33.png") no-repeat center;background-size:cover;}
+    </style>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <a class="home" href="index.html">
+            <img src="images/header_icon1.png">
+        </a>
+        <a class="logo" href="index.html">
+            <img src='images/logo.png'/>
+        </a>
+        <div class="nav_icon" id="navigation_open">
+            <img src="images/header_icon2.png">
+        </div>
+    </div>
+    <!--导航-->
+    <div class="navigation" id="navigation">
+        <div class="nav_content">
+            <div class="list">
+                <a class="item" href="index.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon1.png"/>
+                    </div>
+                    <h3>首页</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon2.png"/>
+                    </div>
+                    <h3>装修案例</h3>
+                </a>
+                <a class="item" href="baojia.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon3.png"/>
+                    </div>
+                    <h3>装修报价</h3>
+                </a>
+                <a class="item" href="huodong_56666.html">
+                    <div class="img">
+                        <img src="images/icon/nav_icon4.png"/>
+                    </div>
+                    <h3>566+套餐</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon5.png"/>
+                    </div>
+                    <h3>装修资讯</h3>
+                </a>
+                <a class="item">
+                    <div class="img">
+                        <img src="images/icon/nav_icon6.png"/>
+                    </div>
+                    <h3>关于我们</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--报价内容1-->
+    <div class="baojia_content baojia_content1">
+       <div class="content_title">
+            <h3>装修猫腻那么多，提前算算装修多少钱</h3>
+            <h4>选择房屋类型与城市(1/3)</h4>
+            <h5>旧房比新房会多一个拆改费</h5>
+        </div>
+
+        <div class="content_main">
+            <ul class="select_option">
+                <li class="house house_new active">
+                    <div class="img">
+                        <img src="images/baojia_images/index1.png"/>
+                    </div>
+                    <h6>新房装修<span></span></h6>
+                </li>
+                <li class="house house_old">
+                    <div class="img">
+                        <img src="images/baojia_images/index2.png"/>
+                    </div>
+                    <h6>旧房翻新<span></span></h6>
+                </li>
+            </ul>
+            <select>
+                <option>请选择房屋所在城市</option>
+                <option>北京</option>
+                <option>天津</option>
+                <option>石家庄</option>
+                <option>杭州</option>
+                <option>苏州</option>
+                <option>南京</option>
+                <option>上海</option>
+                <option>广州</option>
+                <option>深圳</option>
+                <option>厦门</option>
+                <option>武汉</option>
+                <option>合肥</option>
+                <option>郑州</option>
+                <option>西安</option>
+                <option>长沙</option>
+                <option>成都</option>
+                <option>重庆</option>
+                <option>其它</option>
+                <!--<option>请选择房屋所在城市</option>
+                <option>北京</option>
+                <option>长沙</option>
+                <option>成都</option>
+                <option>重庆</option>
+                <option>郴州</option>
+                <option>福州</option>
+                <option>佛山</option>
+                <option>广州</option>
+                <option>杭州</option>
+                <option>合肥</option>
+                <option>衡阳</option>
+                <option>醴陵</option>
+                <option>南昌</option>
+                <option>南京</option>
+                <option>南通</option>
+                <option>南宁</option>
+                <option>石家庄</option>
+                <option>苏州</option>
+                <option>上海</option>
+                <option>深圳</option>
+                <option>天津</option>
+                <option>太原</option>
+                <option>无锡</option>
+                <option>武汉</option>
+                <option>芜湖</option>
+                <option>西安</option>
+                <option>厦门</option>
+                <option>湘潭</option>
+                <option>郑州</option>
+                <option>珠海</option>
+                <option>株洲</option>
+                <option>其它</option>-->
+            </select>
+            <button type="button" class="step_btn">下一步</button>
+        </div>
+        <div class="content_footer">
+            <img src="images/baojia_images/index3.png"/>
+            <p>湖北极享家装饰设计工程有限公司</p>
+            <p>鄂ICP备17012710号-1</p>
+        </div>
+    </div>
+    <!--报价内容2-->
+    <div class="baojia_content baojia_content2">
+        <div class="content_title">
+            <h3>装修猫腻那么多，提前算算装修多少钱</h3>
+            <h4>选择户型与面积(2/3)</h4>
+        </div>
+        <div class="content_main">
+            <div class="house_type select_option">
+                <ul>
+                    <!--<div class="row">-->
+                    <li class="active">
+                        <div class="img">
+                            <img src="images/baojia_images/index5.png"/>
+                            <span></span>
+                        </div>
+                        <h6>一室一厅</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index10.png"/>
+                            <span></span>
+                        </div>
+                        <h6>两室两厅</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index13.png"/>
+                            <span></span>
+                        </div>
+                        <h6>四室一厅</h6>
+                    </li>
+                    <!--</div>-->
+                </ul>
+                <ul>
+                    <!--<div class="row">-->
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index8.png"/>
+                            <span></span>
+                        </div>
+                        <h6>一室两厅</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index11.png"/>
+                            <span></span>
+                        </div>
+                        <h6>三室一厅</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index14.png"/>
+                            <span></span>
+                        </div>
+                        <h6>四室两厅</h6>
+                    </li>
+                   <!-- </div>-->
+                </ul>
+                <ul>
+                    <!--<div class="row">-->
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index9.png"/>
+                            <span></span>
+                        </div>
+                        <h6>两室一厅</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index12.png"/>
+                            <span></span>
+                        </div>
+                        <h6>三室两厅</h6>
+                    </li>
+                    <!--</div>-->
+                </ul>
+            </div>
+            <div class="form_wrap">
+                <input type="text" placeholder="请输入房屋面积" maxlength="4" id="bj_house_size"/>
+                <button type="button" class="prev_step">上一步</button>
+                <button type="button" class="next_step">下一步</button>
+            </div>
+        </div>
+        <div class="content_footer">
+            <img src="images/baojia_images/index3.png"/>
+            <p>湖北极享家装饰设计工程有限公司</p>
+            <p>鄂ICP备17012710号-1</p>
+        </div>
+    </div>
+    <!--报价内容2-2-->
+    <div class="baojia_content baojia_content2_2">
+        <div class="content_title">
+            <h3>装修猫腻那么多，提前算算装修多少钱</h3>
+            <h4>选择户型与面积(2/3)</h4>
+        </div>
+        <div class="clearfix content_main">
+            <ul class="clearfix select_option">
+                <li class="house house_new active">
+                    <div class="img">
+                        <img src="images/baojia_images/index1.png"/>
+                    </div>
+                    <h6>老房翻新<span></span></h6>
+                </li>
+                <li class="house house_old">
+                    <div class="img">
+                        <img src="images/baojia_images/index2.png"/>
+                    </div>
+                    <h6>二手房装修<span></span></h6>
+                </li>
+            </ul>
+            <div class="form_wrap clearfix">
+                <input type="text" placeholder="请输入房屋面积" maxlength="4" class="bj_house_size"/>
+                <button type="button" class="prev_step">上一步</button>
+                <button type="button" class="next_step">下一步</button>
+            </div>
+        </div>
+        <div class="content_footer">
+            <img src="images/baojia_images/index3.png"/>
+            <p>湖北极享家装饰设计工程有限公司</p>
+            <p>鄂ICP备17012710号-1</p>
+        </div>
+    </div>
+
+    <!--报价内容3-->
+    <div class="baojia_content baojia_content3">
+        <div class="content_title">
+            <h3>装修猫腻那么多，提前算算装修多少钱</h3>
+            <h4>选择装修风格(3/3)</h4>
+            <h5>风格不同，使用材料和施工难度不一样</h5>
+        </div>
+        <div class="content_main">
+            <div class="house_style select_option">
+                <ul>
+                    <li class="active">
+                        <div class="img">
+                            <img src="images/baojia_images/index17.png"/>
+                            <span></span>
+                        </div>
+                        <h6>现代风格</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index21.png"/>
+                            <span></span>
+                        </div>
+                        <h6>美式风格</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index22.png"/>
+                            <span></span>
+                        </div>
+                        <h6>地中海</h6>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index19.png"/>
+                            <span></span>
+                        </div>
+                        <h6>中式风格</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index23.png"/>
+                            <span></span>
+                        </div>
+                        <h6>田园风格</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index24.png"/>
+                            <span></span>
+                        </div>
+                        <h6>还没想好<br/>简单实用就行</h6>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index18.png"/>
+                            <span></span>
+                        </div>
+                        <h6>新中式</h6>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="images/baojia_images/index20.png"/>
+                            <span></span>
+                        </div>
+                        <h6>欧式风格</h6>
+                    </li>
+                </ul>
+            </div>
+            <input type="text" placeholder="输入手机号,获取报价明细" maxlength="11" id="bj_phone"/>
+            <div class="info_log">*您输入的电话格式不对，请检查</div>
+            <button type="button" class="calculator_btn">立即计算</button>
+            <div class="msg_open">小秘密</div>
+            <p class="msg_content">
+                提交号码会有长沙装修顾问和你联系<br/>
+                给你更精准的报价<br/>
+                但绝不会打扰到您<br/>
+            </p>
+        </div>
+        <div class="content_footer">
+            <img src="images/baojia_images/index3.png"/>
+            <p>湖北极享家装饰设计工程有限公司</p>
+            <p>鄂ICP备17012710号-1</p>
+        </div>
+    </div>
+    <!--报价内容4-->
+    <div class="baojia_content baojia_content4">
+        <div class="content_main">
+            <h3>装修就找极享家 您的理想选择</h3>
+            <div class="img">
+                <img src="images/baojia_images/index29.png"/>
+            </div>
+            <div class="progress">
+                <div class="progressbar"></div>
+            </div>
+            <h3>计算中...</h3>
+        </div>
+    </div>
+    <!--报价内容5-->
+    <div class="baojia_content baojia_content5">
+        <div class="content_title">
+            <h3>您的装修报价结果为</h3>
+        </div>
+        <div class="content_main">
+            <div class="panel">
+                <dl>
+                    <dt>您家装修全包价格约为：<span class="price_all">58800</span>元</dt>
+                    <dd><i>*</i>材料费：<span class="price_cl">23520</span>元</dd>
+                    <dd><i>*</i>人工费：<span class="price_rg">35280</span>元</dd>
+                    <dd><i>*</i>设计费：<span class="price_sj0">0</span>元<span class="price_sj1">4999元</span></dd>
+                    <dd><i>*</i>质检费：<span class="price_zj0">0</span>元<span class="price_zj1">3000元</span></dd>
+                </dl>
+            </div>
+            <h4>报价<span class="price_all">58800</span>，能装修成什么样子？</h4>
+            <ul class="select_style select_option">
+                <li class="active">
+                    <div class="img">
+                        <img src="images/baojia_images/index25.png"/>
+                    </div>
+                    <h6>往期案例发您<span></span></h6>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="images/baojia_images/index26.png"/>
+                    </div>
+                    <h6>直接0元设计<span></span></h6>
+                </li>
+            </ul>
+            <div class="form_wrap">
+                <input type="text" maxlength="8" placeholder="请输入您的称呼" id="bj_name"/>
+                <input type="text" maxlength="16" placeholder="请输入微信号,设计师将与您取得联系" id="bj_wx_number"/>
+                <button type="button" class="submit_btn">提交</button>
+            </div>
+        </div>
+        <div class="content_footer">
+            <img src="images/baojia_images/index3.png"/>
+            <p>湖北极享家装饰设计工程有限公司</p>
+            <p>鄂ICP备17012710号-1</p>
+        </div>
+    </div>
+    <!--报价内容6-->
+    <div class="baojia_content baojia_content6">
+        <div class="content_top">
+            <div class="img">
+                <img src="images/baojia_images/index30.png"/>
+            </div>
+            <h1>预约成功</h1>
+            <h4>我们的家装顾问将尽快与您联系<br/>注意接听<span>027(武汉)</span>开头的电话</h4>
+        </div>
+        <div class="content_main">
+            <h2>常见问题</h2>
+            <h3>预约0元设计，怎么快速上门量房？</h3>
+            <h4>我们的装修顾会跟您电话您联系，并加上了您的微信，<br/>了解您的装修需求，给你安排当地最合适的设计师上门量房，<br/>
+                你只需要接听<span>027</span>开头电话即可</h4>
+            <h3>迟迟没有家装顾问联系怎么办？</h3>
+            <h4>若预约成功后迟迟没有设计师联系，请拨打027-87316568资讯<br/>或加微信好友咨询。</h4>
+
+            <h3>去哪里获取及时的装修活动信息？</h3>
+            <h4>我们的活动会在第一时间在官网发布，或者咨询我们的家装顾问</h4>
+            <a href="#" class="link">我知道了</a>
+        </div>
+        <div class="content_footer">
+            <img src="images/baojia_images/index3.png"/>
+            <p>湖北极享家装饰设计工程有限公司</p>
+            <p>鄂ICP备17012710号-1</p>
+        </div>
+    </div>
+    <!--客服区-->
+    <a class="kefu" href="#">
+        <img src="images/baojia_images/index4.png"/>
+    </a>
+
+</body>
+</html>
