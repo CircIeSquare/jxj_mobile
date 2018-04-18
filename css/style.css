@@ -52,3 +52,7 @@ input,select{outline:none;}
 /**/
 .swiper-pagination-bullet{background:#323232;opacity:1;width:.16rem;height:.16rem;margin:0 .0933rem !important;}
 .swiper-pagination-bullet-active{background:#f6ca32;}
+/*导航*/
+.navigation{width:100%;height:100%;position:fixed;background:rgba(29,29,29,.5);z-index:20;
+top:0;left:100%;/*display:none;left:0;*/
+}
