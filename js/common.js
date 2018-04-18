@@ -1,24 +1,3 @@
-//顾客提交
-function toSubmit(r){
-    $.ajax({
-        type:'POST',
-        //url:'https://www.54jxj.com/pc_customer',
-        url:'https://',
-        data:r,
-        dataType:'json',
-        success:function(data){
-            alert(data.info);
-            window.location.reload();
-        },
-        error:function(err){
-            layer.open({
-                style:'border:none;background:rgba(29,29,29,.5);color:#fff;',
-                content:'信息提交失败!'
-            });
-        }
-    });
-};
-
 $(function(){
     //选户型
     var select_box=$(".select_type .select_box");
@@ -41,7 +20,43 @@ $(function(){
     $(document).on('click',function(){
         select_ul.hide();
     });
+    
+    //导航
+    var nav_state=0;
+    $("#navigation_open").click(function(){
+        /*$("#navigation").slideToggle();*/
+        var w=$(window).width();
+        if(nav_state==0){
+            $("#navigation").animate({left:"0"},"500","linear");
+            nav_state=1;
+        }else{
+            $("#navigation").animate({left:"100%"},"500","linear");
+            nav_state=0;
+        }
+    });
+    
 });
+
+//顾客提交
+function toSubmit(r){
+    $.ajax({
+        type:'POST',
+        //url:'https://www.54jxj.com/pc_customer',
+        url:'https://',
+        data:r,
+        dataType:'json',
+        success:function(data){
+            alert(data.info);
+            window.location.reload();
+        },
+        error:function(err){
+            layer.open({
+                style:'border:none;background:rgba(29,29,29,.5);color:#fff;',
+                content:'信息提交失败!'
+            });
+        }
+    });
+};
 
 
 //检查姓名
@@ -82,16 +97,4 @@ function checkPhone(val,state){
     };
 };
 
-//导航
-var nav_state=0;
-$("#navigation_open").click(function(){
-    /*$("#navigation").slideToggle();*/
-    var w=$(window).width();
-    if(nav_state==0){
-        $("#navigation").animate({left:"0"},"500","linear");
-        nav_state=1;
-    }else{
-        $("#navigation").animate({left:"100%"},"500","linear");
-        nav_state=0;
-    }
-});
+
