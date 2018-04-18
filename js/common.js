@@ -82,4 +82,16 @@ function checkPhone(val,state){
     };
 };
 
-
+//导航
+var nav_state=0;
+$("#navigation_open").click(function(){
+    /*$("#navigation").slideToggle();*/
+    var w=$(window).width();
+    if(nav_state==0){
+        $("#navigation").animate({left:"0"},"500","linear");
+        nav_state=1;
+    }else{
+        $("#navigation").animate({left:"100%"},"500","linear");
+        nav_state=0;
+    }
+});
