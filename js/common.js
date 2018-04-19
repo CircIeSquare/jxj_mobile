@@ -108,7 +108,8 @@ function checkArea(val,state){
 
 //检查面积
 function checkHouseSize(val,state){
-    if (/^[1-9]\d*$/.test(val)) {
+    //if(/^[1-9]\d*$/.test(val)){
+    if(/^[1-9]\d{1,4}$/.test(val)){
         state=true;
         return state;
     }else{
