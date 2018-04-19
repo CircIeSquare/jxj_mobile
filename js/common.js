@@ -1,6 +1,6 @@
 $(function(){
     //选户型
-    var select_box=$(".select_type .select_box");
+    /*var select_box=$(".select_type .select_box");
     var select_ul=$(".select_type .select_ul");
     select_box.each(function(index){
         $(this).on("click",function(e){
@@ -19,6 +19,34 @@ $(function(){
     });
     $(document).on('click',function(){
         select_ul.hide();
+    });*/
+
+    //选户型
+    var select_box=$(".select_type .select_box");
+    var select_ul=$(".select_type .alert_type ul");
+    var select_type_btn=$(".select_type .type_btn");
+    //var tmp1=0,tmp2=0;
+    var tmp_string='';
+
+    select_box.click(function(){
+       $(this).siblings(".alert_type").fadeIn("100","linear");
+    });
+    select_ul.each(function(){
+        var select_ul_li=$(this).find("li");
+        select_ul_li.each(function(){
+            $(this).click(function() {
+                $(this).addClass("active").siblings("li").removeClass("active");
+            });
+        });
+    });
+    select_type_btn.click(function(){
+        tmp_string="";
+        select_ul.each(function(){
+            tmp_string+=$(this).find(".active").text();
+        });
+        //alert(tmp_string);
+        $(this).parents(".alert_type").fadeOut("100","linear");
+        select_box.text(tmp_string);
     });
     
     //导航
