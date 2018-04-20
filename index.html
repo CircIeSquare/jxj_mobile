@@ -580,17 +580,16 @@ $(function(){
         autoplayDisableOnInteraction:false,
         slidesPerView:1,
         loop:false,
-        onSlideChangeStart: function(swiper){
+        onSlideChangeStart:function(swiper){
             $(".news .tab_btn .active").removeClass('active');
             $(".news .tab_btn li").eq(swiper.activeIndex).addClass('active');
         }
-
     });
     //装修资讯
     var news_tab_btn=$(".news .tab_btn li");
-    news_tab_btn.on("click tap",function(){
+    news_tab_btn.on("touchstart click",function(){
         $(".news .tab_btn .active").removeClass('active')
-        $(this).addClass('active')
+        $(this).addClass('active');
         swiper3.slideTo($(this).index(),500,false);
     });
 
