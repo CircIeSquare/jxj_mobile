@@ -29,12 +29,20 @@ $(function(){
     var tmp_string='';
 
     select_box.click(function(){
+<<<<<<< HEAD
        $(this).siblings(".alert_type").show();
+=======
+       $(this).siblings(".alert_type").fadeIn("100","linear");
+>>>>>>> 5b85d37ac1c3da16d5cbfc6ef1d32670b8b7844b
     });
     select_ul.each(function(){
         var select_ul_li=$(this).find("li");
         select_ul_li.each(function(){
+<<<<<<< HEAD
             $(this).click(function(){
+=======
+            $(this).click(function() {
+>>>>>>> 5b85d37ac1c3da16d5cbfc6ef1d32670b8b7844b
                 $(this).addClass("active").siblings("li").removeClass("active");
             });
         });
@@ -45,6 +53,7 @@ $(function(){
             tmp_string+=$(this).find(".active").text();
         });
         //alert(tmp_string);
+<<<<<<< HEAD
         $(this).parents(".alert_type").hide();
         select_box.text(tmp_string);
     });
@@ -64,7 +73,48 @@ $(function(){
         }*/
     });
 
+=======
+        $(this).parents(".alert_type").fadeOut("100","linear");
+        select_box.text(tmp_string);
+    });
+    
+    //导航
+    var nav_state=0;
+    $("#navigation_open").click(function(){
+        /*$("#navigation").slideToggle();*/
+        var w=$(window).width();
+        if(nav_state==0){
+            $("#navigation").animate({left:"0"},"500","linear");
+            nav_state=1;
+        }else{
+            $("#navigation").animate({left:"100%"},"500","linear");
+            nav_state=0;
+        }
+    });
+    
+>>>>>>> 5b85d37ac1c3da16d5cbfc6ef1d32670b8b7844b
 });
+
+//顾客提交
+function toSubmit(r){
+    $.ajax({
+        type:'POST',
+        //url:'https://www.54jxj.com/pc_customer',
+        url:'https://',
+        data:r,
+        dataType:'json',
+        success:function(data){
+            alert(data.info);
+            window.location.reload();
+        },
+        error:function(err){
+            layer.open({
+                style:'border:none;background:rgba(29,29,29,.5);color:#fff;',
+                content:'信息提交失败!'
+            });
+        }
+    });
+};
 
 
 
