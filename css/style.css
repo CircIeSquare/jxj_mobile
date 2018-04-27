@@ -44,7 +44,7 @@ input,button,select{outline:none;border:none;}
 .clearfix{*zoom:1;}
 
 /*header*/
-.header{width:100%;height:1.3733rem;background:#fff;text-align:center;position:fixed;top:0;left:0;z-index:30;border:1px solid #e1e1e1;}
+.header{width:100%;height:1.3733rem;background:#fff;text-align:center;position:fixed;top:0;left:0;z-index:50;border:1px solid #e1e1e1;}
 .header .home{display:block;width:.6266rem;height:.5066rem;float:left;margin:.44rem 0 0 .2533rem;}
 .header .logo{display:inline-block;
     /*width:2.9733rem;margin-top:.32rem;*/
@@ -57,7 +57,7 @@ input,button,select{outline:none;border:none;}
 .swiper-pagination-bullet-active{background:#f6ca32;}
 
 /*导航*/
-.navigation{width:100%;height:100%;position:fixed;background:rgba(29,29,29,.5);z-index:20;
+.navigation{width:100%;height:100%;position:fixed;background:rgba(29,29,29,.5);z-index:30;
 top:0;display:none;left:0;/*left:100%;*/}
 .navigation .nav_content{margin-top:1.3733rem;width:100%;height:5rem;background:#fff;}
 .navigation .nav_content .list{width:100%;display:table;border-top:2px solid #e5e5e5;}
@@ -109,4 +109,20 @@ background:#f4f4f4;color:#7f7f7f;border-radius:.0666rem;}
 .alert_type .houseType_wrapper ul li.active{background:#f6ca32;color:#fff;}
 .alert_type .houseType_wrapper .type_btn{width:100%;height:1.1866rem;line-height:1.1866rem;color:#f6ca32;
     text-align:center;border-top:.04rem solid #e7e7e7;font-size:.4266rem;}
+
+/*footer*/
+.footer{width:100%;margin:0 auto 1.6666rem;}
+.footer p{width:100%;text-align:center;color:#646464;height:.32rem;line-height:.32rem;/*padding:.4266rem 0 .28rem 0;*/
+    font-size:.26rem;padding-top:.2266rem;}
+.footer p:last-child{padding:.1733rem 0 .1733rem 0;}
+
+/*预约装修*/
+.order_decoration{width:100%;height:1.6666rem;position:fixed;bottom:0;left:0;z-index:5;
+background:url("../images/order_decoration(1).png") no-repeat center;background-size:cover;}
+.order_decoration .item{width:50%;height:1.6666rem;float:left;}
+.order_decoration .item .img{width:1.6666rem;height:1.6666rem;float:left;}
+.order_decoration .item h6{
+    width:65.6666%;height:1.6666rem;box-sizing:border-box;
+    font-size:.3266rem;color:#fff;line-height:.4666rem;padding:.3466rem 0 0 .1333rem;float:left;/*color:#fff;*/}
+.order_decoration .item h6 span{color:#e81e42;}
 

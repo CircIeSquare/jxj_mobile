@@ -22,8 +22,7 @@
 
 .baojia_content .content_footer{/*width:96%;*/width:100%;margin:1rem auto 0;}
 .baojia_content .content_footer p{width:100%;text-align:center;color:#646464;height:.32rem;line-height:.32rem;/*padding:.4266rem 0 .28rem 0;*/
-font-size:.16rem;padding-top:.4266rem;}
-.baojia_content .content_footer p{}
+/*font-size:.16rem;*/font-size:.26rem;padding-top:.4266rem;}
 .baojia_content .content_footer p:last-child{padding:.1733rem 0 .28rem 0;}
 
 /*报价内容区1*/
@@ -52,12 +51,12 @@ font-size:.16rem;padding-top:.4266rem;}
     -webkit-appearance:none;
     appearance:none;
     display:block;width:85.8333%;/*height:.6133rem;line-height:.6133rem;*/background:#faf6f6;border:1px solid #f3efef;margin:0 auto;
-    box-sizing:border-box;padding:0 .2rem;border-radius:6px;color:#646464;font-size:.1866rem;
-    height:.9833rem;line-height:.9833rem;
+    box-sizing:border-box;padding:0 .2rem;border-radius:6px;color:#646464;/*font-size:.1866rem;*/
+    height:.9833rem;line-height:.9833rem;font-size:.3866rem;
 }
 .baojia_content1 .content_main .step_btn{display:block;width:60%;border-radius:6px;
     /*height:.64rem;line-height:.64rem;*/background:#f6ca32;margin:.52rem auto .9466rem;
-font-size:.24rem;color:#fff;height:.99rem;line-height:.99rem;}
+/*font-size:.24rem;*/color:#fff;height:.99rem;line-height:.99rem;font-size:.4666rem;}
 
 /*报价内容区2*/
 .baojia_content2{display:none;}
@@ -83,14 +82,14 @@ font-size:.24rem;color:#fff;height:.99rem;line-height:.99rem;}
 .baojia_content2_2 .form_wrap:after{content:"㎡";width:.2133rem;height:.24rem;position:absolute;z-index:2;top:.9066rem;/*right:.2133rem;font-size:.2866rem;*/
     right:.5133rem;font-size:.5866rem;}
 .baojia_content2 .form_wrap input,
-.baojia_content2_2 .form_wrap input{display:block;border-radius:6px;box-sizing:border-box;width:100%;/*height:.64rem;line-height:.64rem;*/border:1px solid #f3efef;background:#f8f8f8;color:#757575;font-size:.1866rem;padding:0 .2rem;
-    height:.9833rem;line-height:.9833rem;
+.baojia_content2_2 .form_wrap input{display:block;border-radius:6px;box-sizing:border-box;width:100%;/*height:.64rem;line-height:.64rem;*/border:1px solid #f3efef;background:#f8f8f8;color:#757575;/*font-size:.1866rem;*/padding:0 .2rem;
+    height:.9833rem;line-height:.9833rem;font-size:.3866rem;
 }
 .baojia_content2 .form_wrap input:focus,
 .baojia_content2_2 .form_wrap input:focus{border-color:#00a151;}
 .baojia_content2 .form_wrap button,
-.baojia_content2_2 .form_wrap button{display:block;border-radius:6px;width:46.7741%;/*height:.64rem;*/float:left;margin-top:.52rem;background:#cfcfcf;font-size:.2666rem;color:#fff;
-    height:.99rem;line-height:.99rem;}
+.baojia_content2_2 .form_wrap button{display:block;border-radius:6px;width:46.7741%;/*height:.64rem;*/float:left;margin-top:.52rem;background:#cfcfcf;/*font-size:.2666rem;*/color:#fff;
+    height:.99rem;line-height:.99rem;font-size:.4666rem;}
 .baojia_content2 .form_wrap button:last-child,
 .baojia_content2_2 .form_wrap button:last-child{float:right;background:#f6ca32;}
 
@@ -118,13 +117,15 @@ font-size:.24rem;color:#fff;height:.99rem;line-height:.99rem;}
 }
 .baojia_content3 .content_main input{border-radius:6px;box-sizing:border-box;width:100%;/*height:.64rem;line-height:.64rem;margin-top:.3733rem;*/
     height:.9833rem;line-height:.9833rem;margin-top:.5733rem;
-    border:1px solid #f3efef;background:#f8f8f8;color:#757575;font-size:.1866rem;padding:0 .2rem;}
+    border:1px solid #f3efef;background:#f8f8f8;color:#757575;/*font-size:.1866rem;*/padding:0 .2rem;
+    font-size:.3866rem;
+}
 .baojia_content3 .content_main input:focus{border-color:#00a151;}
 .baojia_content3 .content_main .info_log{opacity:0;height:.1866rem;line-height:.1866rem;padding:.16rem .2rem;color:red;font-size:.18rem;}
 
 .baojia_content3 .content_main button{display:block;width:69.6774%;
     /*height:.64rem;*/height:.99rem;color:#fff;background:#f6ca32;margin:0 auto;
-font-size:.2666rem;border-radius:6px;}
+/*font-size:.2666rem;*/border-radius:6px;font-size:.4666rem;}
 .baojia_content3 .content_main .msg_open{/*width:1.16rem;height:.32rem;line-height:.32rem;*/text-align:center;
     padding:.08rem .3333rem;
     background:#f6ca32;border-radius:2px;font-size:.16rem;color:#fff;margin:.6rem 0 1.4266rem .1333rem;float:left;}
@@ -180,13 +181,14 @@ box-sizing:border-box;padding:4px 16px;}
 .baojia_content5 .content_main .form_wrap input{
     border-radius:6px;box-sizing:border-box;width:100%;/*height:.64rem;line-height:.64rem;*/
     height:.9833rem;line-height:.9833rem;
-    border:1px solid #f3efef;background:#f8f8f8;color:#757575;font-size:.1866rem;padding:0 .2rem;margin-bottom:.24rem;
+    border:1px solid #f3efef;background:#f8f8f8;color:#757575;/*font-size:.1866rem;*/padding:0 .2rem;margin-bottom:.24rem;
+    font-size:.3866rem;
 }
 .baojia_content5 .content_main .form_wrap input:focus{border-color:#00a151;}
 .baojia_content5 .content_main .form_wrap button{
     display:block;width:69.6774%;/*height:.64rem;*/height:.99rem;
     color:#fff;background:#f6ca32;margin:.24rem auto .9466rem;
-    font-size:.2666rem;border-radius:6px;}
+    /*font-size:.2666rem;*/border-radius:6px;font-size:.4666rem;}
 
 /*报价内容区6*/
 .baojia_content6{text-align:center;display:none;}

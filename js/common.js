@@ -21,7 +21,7 @@ $(function(){
         select_ul.hide();
     });*/
 
-    //选户型
+    //户型弹窗
     var select_box=$(".select_type .select_box");
     var select_ul=$(".select_type .alert_type ul");
     var select_type_btn=$(".select_type .type_btn");
@@ -64,7 +64,53 @@ $(function(){
         }*/
     });
 
+    //案例预约设计师
+    var anli_order_design=$(".order_design");
+    var anli_order_design_popup=$("#order_design_popup");
+    var close_order_design_popup=$("#order_design_popup .close_order_design_popup");
+    var design_popup_username=$("#order_design_popup .popup_username");
+    var design_popup_userphone=$("#order_design_popup .popup_userphone");
+    var design_popup_submit=$("#order_design_popup button");
+
+    var design_popup_username_state=false;
+    var design_popup_userphone_state=false;
+
+    anli_order_design.click(function(){
+        anli_order_design_popup.show();
+    });
+    close_order_design_popup.click(function(){
+        anli_order_design_popup.hide();
+    });
+    design_popup_username.blur(function(){
+        design_popup_username_state=checkName(design_popup_username.val(),design_popup_username_state);
+    });
+    design_popup_userphone.blur(function(){
+        design_popup_userphone_state=checkPhone(design_popup_userphone.val(),design_popup_userphone_state);
+    });
+    design_popup_submit.click(function(){
+        if(design_popup_username_state&&design_popup_userphone_state){
+            var name_val=design_popup_username.val();
+            var phone_val=design_popup_userphone.val();
+            //toSumbit();
+
+            design_popup_username.val("");
+            design_popup_userphone.val("");
+            anli_order_design_popup.hide();
+        }else if(design_popup_username_state==false&&design_popup_userphone_state){
+            alert("请输入正确的称呼(中文或英文)!");
+        }else if(design_popup_username_state&&design_popup_userphone_state==false){
+            alert("请输入正确的电话!");
+        }else{
+            alert("请输入正确的称呼和电话!");
+        };
+    });
+
 });
+
+
+
+
+
 
 
 

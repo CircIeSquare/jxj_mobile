@@ -1,0 +1,39 @@
+/*banner*/
+.banner{width:100%;height:4.96rem;margin-top:1.3833rem;}
+
+/*选择户型*/
+.house_type{width:100%;height:1.4933rem;line-height:1.4933rem;text-align:center;}
+.house_type select{width:28%;height:1.0666rem;line-height:1.0666rem;margin:0 .1666rem;/*font-size:26px;*/border:1px solid #d6d7dc;
+padding:0 .1333rem;margin-top:.2rem;font-size:.3466rem;}
+
+
+/*案例内容区*/
+.content{width:100%;}
+.content ul{width:100%;}
+.content ul li{width:100%;height:auto;}
+.content ul li .img{display:block;width:100%;height:4rem;}
+.content ul li .info{width:100%;padding:.2533rem 0 .2533rem 0;}
+
+.content ul li .info .name{display:block;width:68%;float:left;margin-left:.48rem;color:#333333;font-size:.3466rem;}
+.content ul li .info .name .title{width:100%;height:.5333rem;line-height:.5333rem;font-weight:bold;
+overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.content ul li .info .name .style{width:100%;height:.5333rem;line-height:.5333rem;
+    overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.content ul li .info .people{width:2.0266rem;float:right;margin-right:.48rem;}
+.content ul li .info .order_design{display:block;width:100%;height:.5333rem;line-height:.5333rem;/*background:#e6002d;*/color:#fff;
+font-size:.3466rem;text-align:center;background:#f6ca32;}
+.content ul li .info .reader{width:100%;height:.5333rem;line-height:.5333rem;color:#666666;font-size:.2933rem;overflow:hidden;}
+.content ul li .info .reader i{display:block;width:.38rem;height:.26rem;float:left;margin:.12rem .12rem 0 0;}
+.content ul li .info .reader span{display:block;width:1.4933rem;height:.5333rem;line-height:.5333rem;overflow:hidden;float:left;}
+
+/*预约设计师弹窗*/
+.order_design_popup{position:fixed;width:62.4%;height:5.8266rem;top:0;right:0;bottom:0;left:0;margin:auto;z-index:20;background:#eeeeee;display:none;}
+.order_design_popup .popup_top{width:100%;height:1.04rem;line-height:1.04rem;text-align:center;position:relative;background:#fff;font-size:.4266rem;}
+.order_design_popup .popup_top span{width:.5333rem;height:.5333rem;position:absolute;top:.1866rem;right:.1866rem;}
+.order_design_popup .popup_content{padding-top:.4rem;}
+.order_design_popup .popup_content input,
+.order_design_popup .popup_content button{
+    display:block;box-sizing:border-box;width:91.88%;height:.96rem;line-height:.96rem;border:1px solid #d9d9d9;padding:0 .1333rem;color:#666666;font-size:.32rem;
+    margin:.2933rem auto;border-radius:10px;
+}
+.order_design_popup .popup_content button{border:none;background:#f6ca32;color:#fff;}
