@@ -55,7 +55,6 @@ input,button,select{outline:none;border:none;}
 /**/
 .swiper-pagination-bullet{background:#323232;opacity:1;width:.16rem;height:.16rem;margin:0 .0933rem !important;}
 .swiper-pagination-bullet-active{background:#f6ca32;}
-<<<<<<< HEAD
 
 /*导航*/
 .navigation{width:100%;height:100%;position:fixed;background:rgba(29,29,29,.5);z-index:20;
@@ -69,11 +68,6 @@ top:0;display:none;left:0;/*left:100%;*/}
 .navigation .nav_content .list .item h3{width:100%;color:#757575;
     /*height:.52rem;line-height:.52rem;font-size:.1866rem;*/
     height:.72rem;line-height:.72rem;font-size:.2866rem;
-=======
-/*导航*/
-.navigation{width:100%;height:100%;position:fixed;background:rgba(29,29,29,.5);z-index:20;
-top:0;left:100%;/*display:none;left:0;*/
->>>>>>> 5b85d37ac1c3da16d5cbfc6ef1d32670b8b7844b
 }
 
 /*户型弹窗*/
@@ -95,7 +89,6 @@ position:relative;font-size:.5333rem;}
 background:#f4f4f4;color:#7f7f7f;border-radius:.0666rem;}
 .alert_type .houseType_wrapper ul li.active{background:#f6ca32;color:#fff;}
 .alert_type .houseType_wrapper .type_btn{width:100%;height:1.1866rem;line-height:1.1866rem;color:#f6ca32;
-<<<<<<< HEAD
     text-align:center;border-top:.04rem solid #e7e7e7;font-size:.4266rem;}/*户型弹窗*/
 .alert_type{width:100%;height:100%;position:fixed;background:rgba(29,29,29,.5);z-index:10;top:0;left:0;display:none;}
 .alert_type .houseType_wrapper{width:93.3333%;height:8.1333rem;position:absolute;
@@ -115,7 +108,5 @@ position:relative;font-size:.5333rem;}
 background:#f4f4f4;color:#7f7f7f;border-radius:.0666rem;}
 .alert_type .houseType_wrapper ul li.active{background:#f6ca32;color:#fff;}
 .alert_type .houseType_wrapper .type_btn{width:100%;height:1.1866rem;line-height:1.1866rem;color:#f6ca32;
-=======
->>>>>>> 5b85d37ac1c3da16d5cbfc6ef1d32670b8b7844b
     text-align:center;border-top:.04rem solid #e7e7e7;font-size:.4266rem;}
 
