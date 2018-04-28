@@ -64,6 +64,7 @@ $(function(){
         }*/
     });
 
+<<<<<<< HEAD
     //案例预约设计师
     var anli_order_design=$(".order_design");
     var anli_order_design_popup=$("#order_design_popup");
@@ -112,6 +113,10 @@ $(function(){
 
 
 
+=======
+});
+
+>>>>>>> 29e6099e06771129910b85522836ed54d20896f6
 
 
 //顾客提交
